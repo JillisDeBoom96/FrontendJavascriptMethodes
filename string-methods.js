@@ -47,7 +47,8 @@ console.log(story.includes("Fantastisch"));
 // Knip de vraag van bovenstaande tekst (story) af, zodat alleen het eerste gedeelte overblijft en log dit in de terminal.
 // ---- Verwachte uitkomst: "We vinden de behaalde resultaten werkelijk prachtig."
 
-console.log(story.substring(0, story.indexOf("." )) + ".");
+
+console.log(story.substring(0, story.indexOf(".") + 1));
 
 
 
